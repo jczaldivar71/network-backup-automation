@@ -1,0 +1,36 @@
+[
+    {
+        "hostname": "core-rtr-01",
+        "host": "192.168.1.1",
+        "device_type": "cisco_ios",
+        "username": "admin",
+        "password": "changeme",
+        "port": 22,
+        "secret": "enable_secret"
+    },
+    {
+        "hostname": "dist-sw-01",
+        "host": "192.168.1.2",
+        "device_type": "cisco_ios",
+        "username": "admin",
+        "password": "changeme",
+        "port": 22
+    },
+    {
+        "hostname": "fw-01",
+        "host": "192.168.1.3",
+        "device_type": "cisco_asa",
+        "username": "admin",
+        "password": "changeme",
+        "port": 22,
+        "secret": "enable_secret"
+    },
+    {
+        "hostname": "juniper-edge-01",
+        "host": "192.168.1.4",
+        "device_type": "juniper_junos",
+        "username": "admin",
+        "password": "changeme",
+        "port": 22
+    }
+]
